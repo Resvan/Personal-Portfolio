@@ -63,7 +63,7 @@ $(document).ready(function () {
 });
 function submit() {
   $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbzzciQCHvg2aKg9Zag2_NPFfDZ0KhHlY1KLJdWqxZ_RIZCBFC7nrT-Quiey5ywjjrFq/exec",
+    url: "https://script.google.com/macros/s/AKfycbybAcL6-rBw1kTslaCFrMA9xvr20ntQSUjv6aWC1Z56OdliLyh2frW3GQnUrIM27aSDRQ/exec",  // Replace with your web app URL
     data: $(".contact-forms").serialize(),
     method: "POST",
     success: function (response) {
@@ -75,4 +75,5 @@ function submit() {
       alert("Something Error");
     },
   });
+
 }
