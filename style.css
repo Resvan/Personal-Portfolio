@@ -254,6 +254,7 @@ button:hover a {
   padding: 2em;
   position: absolute;
   top: 0;
+  right: 12px;
   box-shadow: 0 10px 30px -10px var(--bgColor);
 }
 @media (min-width: 48em) {
